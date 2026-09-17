@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelance PLC, HMI &amp; Robot Software | CONSULTS ApS, Denmark</title>
+<meta name="description" content="Freelance PLC, HMI and SCADA development for industry. You speak directly with the developer. Herning, Denmark. Book a free review.">
+<link rel="canonical" href="https://consults.dk/en/">
+<link rel="alternate" hreflang="da" href="https://consults.dk/">
+<link rel="alternate" hreflang="en" href="https://consults.dk/en/">
+<link rel="alternate" hreflang="x-default" href="https://consults.dk/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#16233F">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="author" content="CONSULTS ApS">
+<meta name="geo.region" content="DK-82">
+<meta name="geo.placename" content="Herning">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="da_DK">
+<meta property="og:site_name" content="CONSULTS ApS">
+<meta property="og:url" content="https://consults.dk/en/">
+<meta property="og:title" content="CONSULTS ApS | Freelance PLC, HMI and Robot Software Development | Denmark">
+<meta property="og:description" content="Experienced freelance assistance for PLC, HMI, SCADA and robot software. You speak directly with the person who writes the code. Book a free review.">
+<meta property="og:image" content="https://consults.dk/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CONSULTS ApS, freelance PLC, HMI and robot software in Herning, Denmark">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CONSULTS ApS | Freelance automation development, Denmark">
+<meta name="twitter:description" content="PLC, HMI, SCADA and robot software. Direct access to the developer, no middlemen.">
+<meta name="twitter:image" content="https://consults.dk/assets/og-image.jpg">
+<link rel="preload" as="image" href="../assets/hero.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0D0E10;
+  --graphite:#1A1D21;
+  --graphite-2:#262A2F;
+  --steel:#6C737A;
+  --silver:#B9BFC5;
+  --paper:#F4F5F6;
+  --white:#FFFFFF;
+  --line:#DEE1E4;
+  --line-strong:#C2C7CC;
+  --line-dark:#32373D;
+  --petrol:#2F55B8;
+  --petrol-dark:#24428F;
+  --petrol-deep:#16233F;
+  --petrol-ink:#0B1328;
+  --petrol-light:#9DB4E8;
+  --aqua:#8FB3FF;
+  --petrol-soft:#E8EEF9;
+  --petrol-mist:#F1F5FB;
+  --petrol-line:#D3DDF0;
+  --amber:#E8641B;
+  --amber-dark:#C7500F;
+  --amber-soft:#FDEEE4;
+  --warm:#F8F5F0;
+  --warm-line:#E8E2D8;
+  --wrap:1120px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Inter",system-ui,sans-serif;
+  background:var(--paper);color:var(--black);
+  line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:"Manrope",sans-serif;line-height:1.16;letter-spacing:-0.018em}
+.mono{font-family:"IBM Plex Mono",monospace}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+a{color:var(--petrol)}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:3px}
+.skip{position:absolute;left:-999px;top:8px;z-index:100;background:var(--amber);color:#fff;padding:10px 16px;border-radius:6px;font-weight:700;text-decoration:none}
+.skip:focus{left:12px}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .pulse-dot{display:none}
+}
+img{max-width:100%;display:block}
+
+.label{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.16em;
+  color:var(--steel);text-transform:uppercase;
+}
+.fig-caption{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;
+  color:var(--steel);margin-top:16px;display:block;line-height:1.8;
+}
+.fig-caption b{color:var(--black);font-weight:500}
+
+/* ---------- Header ---------- */
+header{
+  position:sticky;top:0;z-index:60;
+  background:linear-gradient(180deg,var(--black) 0%,var(--petrol-ink) 100%);
+  border-bottom:1px solid #243350;
+}
+.nav{
+  display:grid;grid-template-columns:1fr auto 1fr;align-items:center;
+  height:96px;gap:28px;
+}
+.brand{display:flex;align-items:center;flex:none;justify-self:start}
+.logo{height:62px;width:auto;display:block;transition:none}
+.wordmark{display:inline-flex;align-items:baseline;gap:7px;color:#fff;text-decoration:none;height:auto!important}
+.wordmark b{font-family:"Manrope",sans-serif;font-weight:800;font-size:21px;letter-spacing:.12em}
+.wordmark small{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;color:#9DB4E8}
+.logo-kontakt.wordmark b{font-size:19px}
+.logo-footer.wordmark b{font-size:15px}
+.logo-footer.wordmark small{font-size:10px}
+
+/* midterste menu */
+.nav-panel{display:contents}
+.nav-main{justify-self:center}
+.nav-main ul{display:flex;align-items:center;gap:30px;list-style:none}
+.nav-main a{
+  color:var(--silver);text-decoration:none;font-size:15px;font-weight:500;
+  white-space:nowrap;padding:6px 0;position:relative;transition:color .15s ease;
+}
+.nav-main a::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:1.5px;
+  background:var(--petrol-light);transform:scaleX(0);transform-origin:left;
+  transition:transform .18s ease;
+}
+.nav-main a:hover{color:#fff}
+.nav-main a:hover::after{transform:scaleX(1)}
+
+/* højre handlingsgruppe */
+.nav-actions{
+  display:flex;align-items:center;gap:20px;flex:none;justify-self:end;
+}
+.nav-phone{
+  font-family:"IBM Plex Mono",monospace;font-size:14.5px;color:#fff;
+  text-decoration:none;white-space:nowrap;letter-spacing:.04em;
+  display:flex;align-items:center;gap:8px;
+}
+.nav-phone svg{width:15px;height:15px;opacity:.75;flex:none}
+.nav-phone:hover{color:var(--silver)}
+.nav-cta{
+  background:var(--amber);
+  color:#fff;text-decoration:none;padding:11px 22px;border-radius:6px;
+  font-weight:700;font-size:14.5px;white-space:nowrap;transition:background .15s ease;
+}
+.nav-cta:hover{background:var(--amber-dark)}
+
+.menu-btn{
+  display:none;background:transparent;border:1px solid var(--line-dark);
+  border-radius:6px;padding:9px 15px;font:inherit;font-size:14px;
+  cursor:pointer;color:var(--silver);white-space:nowrap;
+}
+
+/* mobil / smal skærm */
+@media(max-width:1080px){
+  .nav{display:flex;justify-content:space-between;height:80px}
+  .logo{height:54px}
+  .menu-btn{display:block}
+  .nav-main,.nav-actions{
+    display:none;position:absolute;top:72px;left:0;right:0;
+    background:var(--graphite);border-bottom:1px solid var(--line-dark);
+  }
+  .nav-main.open,.nav-actions.open{display:block}
+  .nav-main.open{padding:8px 0 0}
+  .nav-main ul{flex-direction:column;align-items:stretch;gap:0}
+  .nav-main a{padding:14px 24px;display:block}
+  .nav-main a::after{display:none}
+  .nav-actions.open{
+    top:auto;padding:4px 24px 18px;border-left:none;
+    display:flex;flex-direction:column;align-items:stretch;gap:12px;
+    position:static;background:transparent;border-bottom:none;
+  }
+  .nav-phone{justify-content:center;padding:12px 0;border:1px solid var(--line-dark);border-radius:6px}
+  .nav-cta{text-align:center;padding:13px 22px}
+  .nav-panel{
+    display:none;position:absolute;top:72px;left:0;right:0;
+    background:var(--graphite);border-bottom:1px solid var(--line-dark);
+  }
+  .nav-panel.open{display:block}
+}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-block;text-decoration:none;font-weight:700;font-size:16px;padding:14px 28px;border-radius:7px;transition:all .15s ease}
+.btn-primary{background:var(--amber);color:#fff}
+.btn-primary:hover{background:var(--amber-dark)}
+.btn-light{background:var(--amber);color:#fff}
+.btn-light:hover{background:var(--amber-dark)}
+.btn-ghost{border:1px solid var(--line-strong);color:var(--black);margin-left:10px}
+.btn-ghost:hover{border-color:var(--petrol);color:var(--petrol)}
+@media(max-width:560px){.btn-ghost{margin-left:0;margin-top:10px}}
+
+/* ---------- Hero ---------- */
+.hero{padding:40px 0 60px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#FFFFFF 0%,#FFFFFF 55%,var(--petrol-mist) 100%)}
+.hero .wrap{display:block;text-align:center}
+.hero-copy{max-width:860px;margin:0 auto}
+.hero .lede{margin:0 auto 34px}
+.hero-ctas{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.hero .btn-ghost{margin-left:0}
+.trust-line{justify-content:center}
+.hero-fig{max-width:1020px;margin:44px auto 0}
+.hero h1{font-size:clamp(32px,4.4vw,49px);font-weight:800;margin:12px 0 20px}
+.hero h1 em{font-style:normal;color:var(--petrol)}
+.hero .label{color:var(--petrol)}
+.hero .lede{font-size:18.5px;color:var(--steel);max-width:58ch}
+.trust-line{margin:34px auto 0;padding-top:22px;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(3,auto);justify-content:center;gap:56px;max-width:960px}
+.trust-item b{font-family:"Manrope",sans-serif;font-size:18px;font-weight:800;display:block;line-height:1.25;color:var(--amber-dark)}
+.trust-item span{font-size:12.5px;color:var(--steel)}
+.hero-fig{position:relative}
+.shot-annotated{position:relative;margin:0;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--black)}
+.shot-annotated img{
+  display:block;width:100%;aspect-ratio:16/10;object-fit:cover;
+  filter:grayscale(28%) contrast(1.05) brightness(.9);
+}
+.shot-annotated::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(13,14,16,.32) 0%,rgba(13,14,16,0) 38%,rgba(13,14,16,.30) 100%);
+}
+.anno{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.anno-title{font-family:"Manrope",sans-serif;font-weight:800;font-size:20px;fill:#FFFFFF;letter-spacing:-.2px}
+.anno-sub{font-family:"Inter",sans-serif;font-size:13px;fill:#D6DEF0}
+.anno-num{font-family:"Manrope",sans-serif;font-weight:800;font-size:15px;fill:#FFFFFF}
+@media(max-width:760px){.anno{display:none}}
+
+/* flow-diagram i ydelsessektionen */
+.flow-hint{display:none}
+.flow-band{
+  margin:0 0 24px;background:linear-gradient(135deg,var(--petrol-deep) 0%,var(--petrol-ink) 100%);border:1px solid #26375E;box-shadow:0 22px 50px -26px rgba(7,36,35,.6);
+  border-radius:12px;padding:30px 34px;display:grid;
+  grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:34px;align-items:center;
+}
+.flow-band svg{width:100%;height:auto;display:block;max-width:520px}
+.flow-band figcaption{font-size:15px;color:#C6D2EA;line-height:1.7}
+.flow-band figcaption b{color:#fff;font-weight:700}
+@media(max-width:880px){
+  .flow-band{grid-template-columns:1fr;gap:22px;padding:24px}
+  .flow-band svg{max-width:none;margin:0 auto}
+}
+@media(max-width:720px){
+  .hero{padding-top:32px}
+  .trust-line{grid-template-columns:1fr;gap:18px;text-align:center}
+  .hero-fig{margin-top:42px}
+  .hero-ctas .btn{width:100%}
+}
+
+/* ---------- Sections ---------- */
+section{padding:68px 0}
+.sec-head{max-width:640px;margin-bottom:36px}
+.sec-head .label{display:block;margin-bottom:9px;color:var(--petrol)}
+.sec-head h2{font-size:clamp(26px,3.2vw,35px);font-weight:800;margin-bottom:9px}
+.sec-head p{color:var(--steel);font-size:16.5px}
+
+/* ---------- Ydelser ---------- */
+#ydelser{background:var(--petrol-soft);border-top:1px solid var(--petrol-line);border-bottom:1px solid var(--petrol-line)}
+.services{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.services-3{grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:1000px){.services-3{grid-template-columns:1fr}}
+.svc{background:var(--white);border:1px solid var(--petrol-line);border-radius:12px;padding:30px 26px;display:grid;gap:16px}
+.svc-fig{background:var(--petrol-mist);border:1px solid var(--petrol-line);border-radius:8px;padding:18px}
+.svc-fig svg{width:100%;height:auto;display:block}
+.svc h3{font-size:20px;font-weight:800}
+.svc p{color:var(--steel);font-size:15.5px}
+.svc ul{list-style:none;display:grid;gap:9px;margin-top:2px}
+.svc li{display:flex;gap:11px;align-items:baseline;font-size:14.5px}
+.svc li::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--petrol);flex:none;position:relative;top:-1px}
+@media(max-width:880px){.services{grid-template-columns:1fr}}
+
+/* ---------- Billed-pladsholdere ---------- */
+.ph{
+  position:relative;background:var(--paper);
+  border:1.5px dashed var(--line-strong);border-radius:12px;
+  display:grid;place-items:center;text-align:center;padding:28px;overflow:hidden;
+}
+.ph-inner{max-width:280px}
+.ph-icon{width:34px;height:34px;color:var(--silver);margin:0 auto 12px}
+.ph .t{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--steel);display:block;margin-bottom:8px}
+.ph .d{font-size:13px;color:var(--steel);line-height:1.6}
+.ph img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+
+/* Arbejde-galleri */
+.arbejde{background:var(--warm);border-top:1px solid var(--warm-line);border-bottom:1px solid var(--warm-line)}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.gallery figure{margin:0;display:block}
+.gallery .ph{aspect-ratio:16/10}
+.gallery .col .ph{aspect-ratio:4/3}
+.shot{
+  width:100%;height:auto;display:block;border-radius:12px;
+  border:1px solid var(--line);background:var(--paper);
+  filter:grayscale(18%) contrast(1.03);
+}
+@media(max-width:880px){.gallery{grid-template-columns:1fr}}
+
+/* ---------- Metode ---------- */
+.metode{background:var(--white)}
+.steps{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.steps::before{content:"";position:absolute;top:11px;left:12px;right:12px;height:1.5px;background:var(--petrol-line)}
+.step{position:relative;padding-top:34px}
+.step::before{content:"";position:absolute;top:5px;left:0;width:13px;height:13px;border-radius:50%;background:var(--white);border:2.5px solid var(--petrol)}
+.step:last-child::before{background:var(--amber);border-color:var(--amber)}
+.step:last-child .num{color:var(--amber-dark)}
+.step .num{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.14em;color:var(--petrol);text-transform:uppercase;display:block;margin-bottom:10px}
+.step h3{font-size:17.5px;font-weight:800;margin-bottom:7px}
+.step p{color:var(--steel);font-size:14.5px}
+@media(max-width:880px){
+  .steps{grid-template-columns:1fr;gap:34px}
+  .steps::before{left:6px;right:auto;top:12px;bottom:12px;width:1.5px;height:auto}
+}
+
+/* ---------- Om + ejer ---------- */
+.om{background:var(--petrol-mist);border-top:1px solid var(--petrol-line)}
+.om .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+.owner .ph{aspect-ratio:4/5}
+.owner-card{
+  background:var(--white);border:1px solid var(--petrol-line);border-top:none;
+  border-radius:0 0 12px 12px;padding:22px 24px;
+}
+.owner-card b{display:block;font-family:"Manrope",sans-serif;font-size:18px;font-weight:800}
+.owner-card .role{font-size:14px;color:var(--steel);margin-top:2px}
+.owner-card .meta{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.1em;
+  color:var(--steel);margin-top:14px;padding-top:14px;border-top:1px solid var(--line);
+  display:flex;flex-direction:column;gap:5px;
+}
+.owner-card .meta a{text-decoration:none;color:var(--black)}
+.owner-card .meta a:hover{text-decoration:underline}
+.owner-img{display:block;width:100%;height:auto;border-radius:12px 12px 0 0;border:1px solid var(--petrol-line);border-bottom:none}
+.om .label{color:var(--petrol)}
+.om h2{font-size:clamp(25px,3vw,33px);font-weight:800;margin:14px 0 18px}
+.om p{color:var(--steel);font-size:16px;margin-bottom:15px}
+.om-quote{
+  font-family:"Manrope",sans-serif;font-size:18.5px;font-weight:700;color:var(--black);
+  border-left:3px solid var(--amber);padding-left:20px;margin:26px 0 30px;line-height:1.5;
+}
+@media(max-width:880px){.om .wrap{grid-template-columns:1fr;gap:40px}.owner{max-width:380px}}
+
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--white);border-top:1px solid var(--petrol-line)}
+.faq-list{max-width:780px;border-top:1px solid var(--petrol-line)}
+.faq details{border-bottom:1px solid var(--petrol-line)}
+.faq summary{
+  cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:20px;
+  padding:20px 4px;font-family:"Manrope",sans-serif;font-size:17px;font-weight:800;color:var(--black);
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq .plus{font-family:"IBM Plex Mono",monospace;color:var(--petrol);font-size:20px;flex:none;width:24px;text-align:center;transition:transform .2s ease}
+.faq details[open] .plus{transform:rotate(45deg)}
+.faq details p{color:var(--steel);font-size:15.5px;padding:0 44px 22px 4px;line-height:1.7}
+@media(max-width:720px){.faq summary{font-size:16px;padding:16px 2px}.faq details p{padding:0 30px 18px 2px}}
+
+/* ---------- Kontakt ---------- */
+.kontakt{background:linear-gradient(180deg,var(--petrol-deep) 0%,var(--petrol-ink) 100%);color:#fff;padding:72px 0}
+.kontakt .top{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:44px}
+.kontakt .top .label{color:var(--petrol-light);margin-bottom:13px;display:block}
+.kontakt h2{color:#fff;font-size:clamp(27px,3.5vw,39px);font-weight:800;max-width:20ch}
+.kontakt .call{font-family:"IBM Plex Mono",monospace;font-size:clamp(19px,2.6vw,26px);color:#fff;text-decoration:none;border-bottom:2px solid var(--amber);padding-bottom:4px;white-space:nowrap}
+.kontakt .call:hover{color:#F5A374}
+.kontakt .grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px}
+.k-list{display:grid;align-content:start;border:1px solid #26375E;border-radius:10px;overflow:hidden;background:rgba(255,255,255,.03)}
+.k-item{display:flex;gap:16px;padding:20px 22px;border-bottom:1px solid #26375E}
+.k-item:last-child{border-bottom:none}
+.k-item .label{color:var(--petrol-light);min-width:52px;padding-top:4px}
+.k-item b{display:block;font-size:14.5px;margin-bottom:2px}
+.k-item a{color:#C6D2EA;font-size:14.5px;text-decoration:none}
+.k-item a:hover{color:#fff;text-decoration:underline}
+.k-item span{color:#C6D2EA;font-size:14.5px}
+form{display:grid;gap:15px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+label{font-size:13.5px;font-weight:600;color:#DDE5F5;display:block;margin-bottom:6px}
+input,textarea{width:100%;background:rgba(255,255,255,.05);border:1px solid #35476F;border-radius:7px;padding:12px 14px;color:#fff;font-family:inherit;font-size:15px}
+input:focus,textarea:focus{outline:none;border-color:var(--amber)}
+textarea{min-height:135px;resize:vertical}
+.form-note{font-size:13px;color:var(--petrol-light)}
+form .btn-light{border:none;cursor:pointer;font-family:inherit;justify-self:start}
+@media(max-width:900px){.kontakt .grid{grid-template-columns:1fr}.f-row{grid-template-columns:1fr}}
+
+/* ---------- Motion & moderne detaljer ---------- */
+section[id],#kontakt{scroll-margin-top:112px}
+
+/* header komprimeres ved scroll */
+header{transition:box-shadow .25s ease}
+header.scrolled{box-shadow:0 8px 28px -12px rgba(0,0,0,.55)}
+.nav{transition:height .25s ease}
+header.scrolled .nav{height:84px}
+.logo{transition:height .25s ease}
+header.scrolled .brand .logo{height:62px}
+
+/* aktivt menupunkt */
+.nav-main a.active{color:#fff}
+.nav-main a.active::after{transform:scaleX(1);background:var(--amber)}
+
+/* scroll-reveal (aktiveres kun når JS kører) */
+html.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s cubic-bezier(.2,.6,.2,1),transform .65s cubic-bezier(.2,.6,.2,1);transition-delay:var(--d,0s)}
+html.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  html.js .reveal{opacity:1;transform:none}
+}
+
+/* hero-entré */
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+html.js .hero .label,
+html.js .hero h1,
+html.js .hero .lede,
+html.js .hero .hero-ctas,
+html.js .hero .trust-line{animation:rise .7s cubic-bezier(.2,.6,.2,1) both}
+html.js .hero h1{animation-delay:.08s}
+html.js .hero .lede{animation-delay:.16s}
+html.js .hero .hero-ctas{animation-delay:.24s}
+html.js .hero .trust-line{animation-delay:.34s}
+html.js .shot-annotated{animation:rise .8s cubic-bezier(.2,.6,.2,1) .15s both}
+
+/* annoteringer tegner sig */
+html.js .anno path{stroke-dasharray:1;stroke-dashoffset:1;animation:draw .9s ease forwards}
+html.js .anno circle{opacity:0;animation:fadeIn .4s ease forwards}
+html.js .anno rect,html.js .anno text{opacity:0;animation:fadeIn .5s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fadeIn{to{opacity:1}}
+html.js .anno .g1 path{animation-delay:.9s}
+html.js .anno .g1 circle{animation-delay:1.5s}
+html.js .anno .g1 rect,html.js .anno .g1 text{animation-delay:.75s}
+html.js .anno .g2 path{animation-delay:1.25s}
+html.js .anno .g2 circle{animation-delay:1.85s}
+html.js .anno .g2 rect,html.js .anno .g2 text{animation-delay:1.1s}
+html.js .anno .g3 path{animation-delay:1.6s}
+html.js .anno .g3 circle{animation-delay:2.2s}
+html.js .anno .g3 rect,html.js .anno .g3 text{animation-delay:1.45s}
+html.js .anno .g4 path{animation-delay:1.95s}
+html.js .anno .g4 circle{animation-delay:2.55s}
+html.js .anno .g4 rect,html.js .anno .g4 text{animation-delay:1.8s}
+@media (prefers-reduced-motion: reduce){
+  html.js .anno path{stroke-dashoffset:0}
+  html.js .anno circle,html.js .anno rect,html.js .anno text{opacity:1}
+}
+
+/* hover-løft på kort */
+.svc,.step,.k-item,.om-facts,.flow-band{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.svc:hover{transform:translateY(-3px);box-shadow:0 18px 44px -20px rgba(13,14,16,.22);border-color:var(--line-strong)}
+
+/* galleri-billeder: diskret zoom */
+.gallery figure{overflow:hidden;border-radius:12px;box-shadow:0 14px 34px -18px rgba(13,14,16,.28)}
+.shot{transition:transform .6s cubic-bezier(.2,.6,.2,1)}
+.gallery figure:hover .shot{transform:scale(1.028)}
+
+/* knapper: løft + pil på primær CTA */
+.btn{transition:transform .18s ease,filter .18s ease,background .18s ease}
+.btn:hover{transform:translateY(-1.5px)}
+.btn:active{transform:translateY(0)}
+.btn-arrow::after{content:"→";display:inline-block;margin-left:10px;transition:transform .18s ease}
+.btn-arrow:hover::after{transform:translateX(4px)}
+
+/* ---------- Levende illustrationer ---------- */
+@keyframes barGrow{0%,100%{transform:scaleY(.5)}50%{transform:scaleY(1)}}
+.flow-band .bar{transform-box:fill-box;transform-origin:50% 100%;animation:barGrow 3.6s ease-in-out infinite}
+.flow-band .b2{animation-delay:.3s}.flow-band .b3{animation-delay:.6s}
+.flow-band .b4{animation-delay:.9s}.flow-band .b5{animation-delay:1.2s}
+.flow-band .b6{animation-delay:1.5s}.flow-band .b7{animation-delay:1.8s}
+
+@keyframes ledBlink{0%,72%,100%{opacity:1}80%,92%{opacity:.25}}
+.flow-band .led{animation:ledBlink 2.8s ease-in-out infinite}
+
+@keyframes dashMove{to{stroke-dashoffset:-16}}
+.dashmove{animation:dashMove 1.1s linear infinite}
+
+@keyframes boxPulse{0%,100%{fill:#FFFFFF}50%{fill:#FBDCC8}}
+.svc .flowbox{animation:boxPulse 2.7s ease-in-out infinite}
+.svc .f2{animation-delay:.45s}
+.svc .f3{animation-delay:.9s}
+
+@keyframes trendDraw{0%{stroke-dashoffset:1}42%{stroke-dashoffset:0}82%{stroke-dashoffset:0;opacity:1}92%{opacity:0}100%{stroke-dashoffset:1;opacity:0}}
+.svc .trend{stroke-dasharray:1;stroke-dashoffset:1;animation:trendDraw 5.2s ease-in-out infinite}
+@keyframes tipPulse{0%,36%{opacity:0;transform:scale(.4)}46%,80%{opacity:1;transform:scale(1)}92%,100%{opacity:0}}
+.svc .tip{transform-box:fill-box;transform-origin:center;animation:tipPulse 5.2s ease-in-out infinite}
+
+/* ---------- Emnevalg i konsultationsformularen ---------- */
+.topic-label{font-size:13.5px;font-weight:600;color:#DDE5F5;display:block;margin-bottom:9px}
+.topics{display:flex;gap:9px;flex-wrap:wrap}
+.topic{
+  font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.06em;
+  color:#C6D2EA;background:rgba(255,255,255,.05);border:1px solid #35476F;
+  border-radius:100px;padding:8px 15px;cursor:pointer;
+  transition:all .16s ease;
+}
+.topic:hover{border-color:var(--amber);color:#fff}
+.topic.sel{
+  background:var(--amber);color:#fff;border-color:transparent;font-weight:500;
+}
+
+
+/* ---------- Klæbende opkaldsbjælke (kun mobil) ---------- */
+.callbar{display:none}
+@media(max-width:720px){
+  .callbar{
+    position:fixed;left:0;right:0;bottom:0;z-index:70;display:grid;grid-template-columns:1fr 1.4fr;gap:8px;
+    padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+    background:rgba(11,19,40,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    border-top:1px solid #26375E;
+  }
+  .callbar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:46px;border-radius:8px;font-weight:700;font-size:15px;text-decoration:none}
+  .callbar-phone{background:rgba(255,255,255,.08);color:#fff;border:1px solid #35476F}
+  .callbar-phone svg{width:16px;height:16px}
+  .callbar-cta{background:var(--amber);color:#fff}
+  body{padding-bottom:74px}
+  footer{padding-bottom:30px}
+}
+
+/* ---------- Footer ---------- */
+footer{background:var(--petrol-ink);border-top:1px solid #26375E;padding:30px 0;color:var(--petrol-light);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+footer b{color:#fff;font-weight:600}
+
+/* =====================================================================
+   MOBIL-OPTIMERING (påvirker kun skærme under 1080 / 880 / 720 / 560 px)
+   ===================================================================== */
+
+/* -- Mobilmenu: ret dobbelt forskydning og gør panelet til ét samlet lag -- */
+@media(max-width:1080px){
+  .nav-panel{
+    display:none;position:absolute;top:80px;left:0;right:0;
+    background:var(--graphite);border-bottom:1px solid #243350;
+    box-shadow:0 18px 40px -20px rgba(0,0,0,.6);
+    max-height:calc(100vh - 80px);overflow-y:auto;
+  }
+  .nav-panel.open{display:block}
+  .nav-main,.nav-actions{position:static;top:auto;background:transparent;border:none;display:none}
+  .nav-main.open{display:block;padding:6px 0 4px}
+  .nav-main ul{flex-direction:column;align-items:stretch;gap:0}
+  .nav-main a{
+    display:block;padding:15px 24px;font-size:16px;color:#E6ECEB;
+    border-bottom:1px solid rgba(255,255,255,.06);
+  }
+  .nav-main a::after{display:none}
+  .nav-main a.active{color:#fff;background:rgba(255,255,255,.04)}
+  .nav-actions.open{
+    display:flex;flex-direction:column;align-items:stretch;gap:12px;
+    padding:14px 24px 20px;border-top:1px solid #243350;margin-top:4px;
+  }
+  .nav-phone{justify-content:center;padding:13px 0;border:1px solid #35476F;border-radius:7px;font-size:15px}
+  .nav-cta{text-align:center;padding:14px 22px;font-size:15.5px}
+  header.scrolled .nav{height:80px}
+  section[id],#kontakt{scroll-margin-top:92px}
+}
+
+/* -- Tablet -- */
+@media(max-width:880px){
+  section{padding:56px 0}
+  .sec-head{margin-bottom:28px}
+  .kontakt{padding:60px 0}
+  .kontakt .top{margin-bottom:34px}
+  .om .wrap{gap:32px}
+  .owner{max-width:380px;margin:0 auto;width:100%}
+  .om }
+
+/* -- Store telefoner -- */
+@media(max-width:720px){
+  .hero{padding:30px 0 48px}
+  .hero h1{font-size:clamp(30px,8.2vw,40px);margin:10px 0 14px}
+  .hero .lede{font-size:16.5px;margin-bottom:26px}
+  .hero-ctas{gap:10px}
+  .hero-ctas .btn{width:100%;text-align:center;padding:15px 20px}
+  .hero .btn-ghost{margin:0}
+  .trust-line{grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px;padding-top:18px;text-align:center}
+  .trust-item b{font-size:16px}
+  .trust-item span{font-size:11.5px;line-height:1.35;display:block}
+  .hero-fig{margin-top:34px}
+  .shot-annotated{border-radius:10px}
+
+  .sec-head h2{font-size:clamp(24px,6.6vw,30px)}
+  .sec-head p{font-size:15.5px}
+
+  /* Flow-diagram: gør det rulleligt vandret i stedet for at krympe teksten til ulæselighed */
+  .flow-band{padding:18px 16px 20px}
+  .flow-band .flow-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -16px;padding:0 16px 8px;scrollbar-width:thin}
+  .flow-band svg{min-width:520px;width:520px;max-width:none;margin:0}
+  .flow-band figcaption{font-size:14.5px}
+  .flow-hint{display:block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;color:#9DB4E8;margin:6px 0 0;text-transform:uppercase}
+
+  .svc{padding:26px 22px}
+  .svc h3{font-size:19px}
+  .svc-fig{padding:14px}
+
+  .steps{gap:26px}
+  .step{padding-top:0;padding-left:30px}
+  .step::before{top:6px}
+  .steps::before{left:6px;top:10px;bottom:10px}
+
+  .kontakt .top{gap:18px}
+  .kontakt .top .label{margin-bottom:8px}
+  .kontakt h2{font-size:clamp(25px,7vw,32px);max-width:none}
+  .kontakt .call{font-size:clamp(18px,6vw,24px)}
+  .k-item{padding:16px 18px;gap:12px}
+  .k-item .label{min-width:44px}
+  form .btn-light{width:100%;text-align:center;padding:15px 22px}
+  .topics{gap:8px}
+  .topic{padding:9px 13px;font-size:11.5px}
+
+  footer .wrap{flex-direction:column;align-items:center;text-align:center;gap:8px}
+}
+
+/* -- Små telefoner -- */
+@media(max-width:560px){
+  .wrap{padding:0 18px}
+  .nav{height:72px}
+  .logo,header.scrolled .brand .logo{height:48px}
+  .nav-panel{top:72px;max-height:calc(100vh - 72px)}
+  section[id],#kontakt{scroll-margin-top:84px}
+  .shot-annotated img{aspect-ratio:4/3}
+  .trust-line{grid-template-columns:1fr 1fr;gap:12px 10px}
+  .trust-line .trust-item:last-child{grid-column:1 / -1}
+        .owner-card{padding:18px 20px}
+}
+
+/* -- Berøringsskærme: ingen hover-zoom, større tryk-flader -- */
+@media (hover:none){
+  .gallery figure:hover .shot{transform:none}
+  .svc:hover{transform:none;box-shadow:none}
+  .btn:hover{transform:none}
+  .nav-main a,.topic,.btn,.nav-cta,.nav-phone{min-height:44px}
+}
+
+
+/* ---------- Sprogskifter ---------- */
+.lang{display:flex;align-items:center;gap:8px;font-family:"IBM Plex Mono",monospace;font-size:12.5px;letter-spacing:.1em}
+.lang a{color:#9AA6B4;text-decoration:none;padding:4px 2px}
+.lang a:hover{color:#fff}
+.lang a.on{color:#fff;border-bottom:1.5px solid var(--amber);padding-bottom:3px}
+.lang span{color:#3B4148}
+@media(max-width:1080px){.lang{justify-content:center;padding:10px 0 2px}.lang a{font-size:14px;padding:6px 8px}}
+
+/* ---------- Hero-overlay: animationer ---------- */
+html.js .anno .bus{stroke-dashoffset:0;animation:busFlow 1.6s linear infinite}
+@keyframes busFlow{to{stroke-dashoffset:-32}}
+html.js .anno .spark{opacity:0;animation:sparkIn .5s ease 1.1s forwards}
+@keyframes sparkIn{to{opacity:1}}
+html.js .anno .anchor-ring{transform-box:fill-box;transform-origin:center;opacity:1;animation:ringPulse 2.6s ease-out 2.2s infinite}
+@keyframes ringPulse{0%{transform:scale(.55);opacity:.95}70%{transform:scale(1.35);opacity:0}100%{opacity:0}}
+html.js .anno .g2 .anchor-ring{animation-delay:.55s}
+html.js .anno .g3 .anchor-ring{animation-delay:1.1s}
+html.js .anno .led-run{animation:runBlink 2.4s ease-in-out infinite}
+@keyframes runBlink{0%,72%,100%{opacity:1}82%,92%{opacity:.25}}
+html.js .anno .hb{transform-box:fill-box;transform-origin:50% 100%;animation:hbMove 2.8s ease-in-out infinite}
+@keyframes hbMove{0%,100%{transform:scaleY(.55)}50%{transform:scaleY(1)}}
+html.js .anno .b2{animation-delay:.25s}
+html.js .anno .b3{animation-delay:.5s}
+html.js .anno .b4{animation-delay:.75s}
+html.js .anno .hud{opacity:0;animation:fadeIn .6s ease 2.1s forwards}
+.hud-run{font-family:"IBM Plex Mono",monospace;font-size:15px;letter-spacing:1.6px;fill:#3ED27E}
+.hud-lbl{font-family:"IBM Plex Mono",monospace;font-size:12.5px;letter-spacing:1.4px;fill:#9DB4E8}
+.hud-val{font-family:"Manrope",sans-serif;font-weight:800;font-size:22px;fill:#fff}
+@media (prefers-reduced-motion: reduce){
+  html.js .anno .bus,html.js .anno .anchor-ring,html.js .anno .led-run,html.js .anno .hb{animation:none}
+  html.js .anno .spark,html.js .anno .hud{opacity:1;animation:none}
+}
+@media(max-width:760px){.anno .hud{display:none}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "@id": "https://consults.dk/#business", "name": "CONSULTS ApS", "url": "https://consults.dk/en/", "image": "https://consults.dk/assets/og-image.jpg", "description": "Freelance development of PLC, HMI, SCADA and robot software for industry. Herning, Denmark.", "telephone": "+45 70 27 37 00", "email": "info@consults.dk", "foundingDate": "2024-04-05", "founder": {"@type": "Person", "name": "Lars Anker Trankjær"}, "identifier": {"@type": "PropertyValue", "propertyID": "CVR", "value": "44760533"}, "vatID": "DK44760533", "address": {"@type": "PostalAddress", "streetAddress": "Rosenholmvej 106", "postalCode": "7400", "addressLocality": "Herning", "addressCountry": "DK"}, "areaServed": {"@type": "Country", "name": "Denmark"}, "knowsAbout": ["PLC programming", "HMI", "SCADA", "Robot programming", "Industrial automation", "Siemens", "Beckhoff"], "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Services", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Automation", "description": "Programming of PLC, HMI and robot solutions. New development, modifications and troubleshooting."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Process optimisation", "description": "Analysis of stop causes and cycle times directly in the control system."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Technical support", "description": "Troubleshooting by phone, remote access or on site."}}]}, "parentOrganization": {"@type": "Organization", "name": "Trankjær Holding ApS", "foundingDate": "2003-03-26"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which PLC platforms do you work with?", "acceptedAnswer": {"@type": "Answer", "text": "Siemens and Beckhoff, among others. If you use a different platform, just ask. The initial review is free, and we will tell you honestly whether it is something we can help with."}}, {"@type": "Question", "name": "Can you take over code written by others?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A large part of the work is precisely existing plants where the original supplier is no longer available or where documentation is missing. We review the code before building on it."}}, {"@type": "Question", "name": "What does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the scope of the task. You always receive a concrete proposal with scope and timeline before we start, so both parties know what has been agreed. The first review costs nothing."}}, {"@type": "Question", "name": "What does a typical project look like?", "acceptedAnswer": {"@type": "Answer", "text": "Four steps: a no-obligation review of the task, a clear proposal with scope and timeline, development with ongoing status and testing, and finally commissioning with documentation and support after go-live."}}, {"@type": "Question", "name": "What is the difference between using a freelancer and an agency?", "acceptedAnswer": {"@type": "Answer", "text": "At CONSULTS there are no project managers in between. You speak directly with the person who writes the code, from the first review until the plant is running. That means shorter decision paths and no agency overhead."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="CONSULTS ApS, home">
+      <img class="logo" src="../assets/logo.png" alt="CONSULTS ApS — Get it done" width="190" height="128">
+    </a>
+
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav-panel" onclick="toggleMenu(this)">Menu</button>
+
+    <div class="nav-panel" id="nav-panel">
+      <nav class="nav-main" aria-label="Main menu">
+        <ul>
+          <li><a href="#ydelser">Services</a></li>
+          <li><a href="#arbejde">Our work</a></li>
+          <li><a href="#metode">The process</a></li>
+          <li><a href="#om">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang" aria-label="Language"><a href="../index.html" lang="da" hreflang="da">DA</a><span>|</span><a href="index.html" class="on" aria-current="true" lang="en">EN</a></div>
+        <a class="nav-phone" href="tel:+4570273700">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          +45 70 27 37 00
+        </a>
+        <a class="nav-cta" href="#kontakt">Book a review</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="label">Freelance automation · Herning, Denmark</span>
+      <h1>PLC, HMI and robot software. <em>Freelance, when you need it.</em></h1>
+      <p class="lede">CONSULTS offers experienced freelance assistance for developing PLC, HMI and SCADA solutions. You speak directly with the person who writes the code, from the first review until the plant is running.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary btn-arrow" href="#kontakt">Book a free, no-obligation review</a>
+        <a class="btn btn-ghost" href="tel:+4570273700">Call +45 70 27 37 00</a>
+      </div>
+      <div class="trust-line">
+        <div class="trust-item"><b>20 years of experience</b><span>self-employed in Herning since 2003</span></div>
+        <div class="trust-item"><b>PLC · HMI · Robot</b><span>software development as our core discipline</span></div>
+        <div class="trust-item"><b>Siemens &amp; Beckhoff</b><span>among the platforms we work with</span></div>
+      </div>
+    </div>
+
+    <div class="hero-fig">
+      <figure class="shot-annotated">
+        <img src="../assets/hero.jpg"
+             alt="Automated inspection station with PLC control, vision cameras, HMI screens and conveyor" width="1024" height="640" fetchpriority="high">
+        <svg class="anno" viewBox="0 0 1024 640" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="busg" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#8FB3FF" stop-opacity=".25"/>
+              <stop offset="50%" stop-color="#8FB3FF" stop-opacity=".95"/>
+              <stop offset="100%" stop-color="#8FB3FF" stop-opacity=".25"/>
+            </linearGradient>
+          </defs>
+
+          <!-- signalflow: HMI -> PLC -> vision -> operatørskærm -->
+          <path id="bus" class="bus" d="M132 188 C 200 176, 250 170, 300 178 S 470 330, 520 332 S 690 190, 746 168"
+                stroke="url(#busg)" stroke-width="2.4" fill="none" stroke-dasharray="7 9"/>
+          <circle class="spark" r="6" fill="#8FB3FF">
+            <animateMotion dur="5.5s" repeatCount="indefinite"><mpath href="#bus"/></animateMotion>
+          </circle>
+          <circle class="spark" r="4" fill="#E8641B" opacity=".9">
+            <animateMotion dur="5.5s" begin="1.5s" repeatCount="indefinite"><mpath href="#bus"/></animateMotion>
+          </circle>
+          <!-- produktflow på båndet (modsat retning, langsommere) -->
+          <path id="belt" d="M700 300 C 620 330, 520 380, 420 440 S 250 520, 120 585" stroke="none" fill="none"/>
+          <circle class="spark belt-dot" r="4.5" fill="#FFFFFF" opacity=".85">
+            <animateMotion dur="7s" repeatCount="indefinite"><mpath href="#belt"/></animateMotion>
+          </circle>
+          <circle class="spark belt-dot" r="4.5" fill="#FFFFFF" opacity=".85">
+            <animateMotion dur="7s" begin="2.3s" repeatCount="indefinite"><mpath href="#belt"/></animateMotion>
+          </circle>
+          <circle class="spark belt-dot" r="4.5" fill="#FFFFFF" opacity=".85">
+            <animateMotion dur="7s" begin="4.6s" repeatCount="indefinite"><mpath href="#belt"/></animateMotion>
+          </circle>
+
+          <g class="g1">
+          <path class="lead" pathLength="1" d="M356 59 H392 L304 172" stroke="#FFFFFF" stroke-width="1.8" fill="none" opacity=".92"/>
+          <circle class="anchor-ring" cx="300" cy="178" r="14" fill="none" stroke="#E8641B" stroke-width="2"/>
+          <circle cx="300" cy="178" r="6" fill="#E8641B"/>
+          <rect x="36" y="28" width="320" height="62" rx="9" fill="#0B1328" opacity=".88"/>
+          <rect x="36" y="28" width="4" height="62" rx="2" fill="#E8641B"/>
+          <circle cx="67" cy="59" r="14" fill="#E8641B"/>
+          <text x="67" y="65" class="anno-num" text-anchor="middle">1</text>
+          <text x="94" y="55" class="anno-title">Control</text>
+          <text x="94" y="76" class="anno-sub">The PLC code drives the entire station</text>
+          </g>
+          <g class="g2">
+          <path class="lead" pathLength="1" d="M680 90 V180 L590 296" stroke="#FFFFFF" stroke-width="1.8" fill="none" opacity=".92"/>
+          <circle class="anchor-ring" cx="585" cy="302" r="14" fill="none" stroke="#E8641B" stroke-width="2"/>
+          <circle cx="585" cy="302" r="6" fill="#E8641B"/>
+          <rect x="560" y="28" width="360" height="62" rx="9" fill="#0B1328" opacity=".88"/>
+          <rect x="560" y="28" width="4" height="62" rx="2" fill="#E8641B"/>
+          <circle cx="591" cy="59" r="14" fill="#E8641B"/>
+          <text x="591" y="65" class="anno-num" text-anchor="middle">2</text>
+          <text x="618" y="55" class="anno-title">Vision inspection</text>
+          <text x="618" y="76" class="anno-sub">Cameras verify every unit</text>
+          </g>
+          <g class="g3">
+          <path class="lead" pathLength="1" d="M376 579 H410 L334 486" stroke="#FFFFFF" stroke-width="1.8" fill="none" opacity=".92"/>
+          <circle class="anchor-ring" cx="330" cy="480" r="14" fill="none" stroke="#E8641B" stroke-width="2"/>
+          <circle cx="330" cy="480" r="6" fill="#E8641B"/>
+          <rect x="36" y="548" width="340" height="62" rx="9" fill="#0B1328" opacity=".88"/>
+          <rect x="36" y="548" width="4" height="62" rx="2" fill="#E8641B"/>
+          <circle cx="67" cy="579" r="14" fill="#E8641B"/>
+          <text x="67" y="585" class="anno-num" text-anchor="middle">4</text>
+          <text x="94" y="575" class="anno-title">Conveying</text>
+          <text x="94" y="596" class="anno-sub">Automated flow through the cell</text>
+          </g>
+          <g class="g4">
+          <path class="lead" pathLength="1" d="M760 226 V196 L750 176" stroke="#FFFFFF" stroke-width="1.8" fill="none" opacity=".92"/>
+          <circle class="anchor-ring" cx="746" cy="168" r="14" fill="none" stroke="#E8641B" stroke-width="2"/>
+          <circle cx="746" cy="168" r="6" fill="#E8641B"/>
+          <rect x="700" y="226" width="300" height="62" rx="9" fill="#0B1328" opacity=".88"/>
+          <rect x="700" y="226" width="4" height="62" rx="2" fill="#E8641B"/>
+          <circle cx="731" cy="257" r="14" fill="#E8641B"/>
+          <text x="731" y="263" class="anno-num" text-anchor="middle">3</text>
+          <text x="758" y="253" class="anno-title">Operator interface</text>
+          <text x="758" y="274" class="anno-sub">HMI with status and quality data</text>
+          </g>
+
+          <!-- status-modul -->
+          <g class="hud">
+            <rect x="712" y="548" width="290" height="76" rx="10" fill="#0B1328" opacity=".88"/>
+            <rect x="712" y="548" width="290" height="76" rx="10" fill="none" stroke="#35476F" stroke-width="1"/>
+            <circle class="led-run" cx="738" cy="574" r="6" fill="#3ED27E"/>
+            <text x="756" y="579" class="hud-run">SYSTEM: RUN</text>
+            <text x="734" y="608" class="hud-lbl">RATE</text>
+            <text x="800" y="609" class="hud-val" id="hudCount">1 248</text>
+            <text x="900" y="608" class="hud-lbl">units/h</text>
+            <g class="bars">
+              <rect class="hb b1" x="950" y="592" width="6" height="14" rx="3" fill="#8FB3FF"/>
+              <rect class="hb b2" x="962" y="586" width="6" height="20" rx="3" fill="#8FB3FF"/>
+              <rect class="hb b3" x="974" y="580" width="6" height="26" rx="3" fill="#8FB3FF"/>
+              <rect class="hb b4" x="986" y="588" width="6" height="18" rx="3" fill="#8FB3FF"/>
+            </g>
+          </g>
+        </svg>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ YDELSER ============ -->
+<section id="ydelser">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label">Services</span>
+      <h2>Competent assistance throughout the automation task</h2>
+      <p>Programming, optimisation and support. The same developer all the way, no middlemen.</p>
+    </div>
+
+    <figure class="flow-band reveal">
+      <div class="flow-scroll"><svg viewBox="0 0 560 430" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace" role="img" aria-label="Diagram: data is collected in production, PLC software controls the process, SCADA provides an overview, and the insight is fed back into the process">
+        <defs>
+          <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F2F4F5"/><stop offset="100%" stop-color="#C7CCD1"/>
+          </linearGradient>
+          <filter id="soft" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+          </filter>
+        </defs>
+
+        <!-- ===== 1 · PRODUKTION ===== -->
+        <rect x="48" y="34" width="200" height="122" rx="9" stroke="#0D0E10" stroke-width="1.6" fill="#FFFFFF" filter="url(#soft)"/>
+        <text x="68" y="62" font-size="11" letter-spacing="1.9" fill="#2F55B8">1 · PRODUCTION</text>
+        <rect x="68" y="76" width="94" height="36" rx="4" stroke="#0D0E10" stroke-width="1.4" fill="url(#chrome)"/>
+        <circle cx="88" cy="94" r="6" stroke="#0D0E10" stroke-width="1.4" fill="#fff"/>
+        <circle cx="110" cy="94" r="6" stroke="#0D0E10" stroke-width="1.4" fill="#fff"/>
+        <circle cx="132" cy="94" r="6" stroke="#0D0E10" stroke-width="1.4" fill="#fff"/>
+        <circle cx="182" cy="82" r="3.2" fill="#2F55B8"/>
+        <circle cx="198" cy="94" r="3.2" fill="#2F55B8"/>
+        <circle cx="182" cy="106" r="3.2" fill="#2F55B8"/>
+        <path d="M168 84 L176 82 M168 94 L192 94 M168 104 L176 106" stroke="#B9BFC5" stroke-width="1.1"/>
+        <text x="68" y="140" font-size="9.5" letter-spacing="1.3" fill="#6C737A">SENSORS &amp; SIGNALS</text>
+
+        <!-- flow 1 → 2 -->
+        <path id="flow1" class="dashmove" d="M148 156 V196" stroke="#8FB3FF" stroke-width="1.5" stroke-dasharray="3 5"/>
+        <path d="M144 190l4 8 4-8" fill="none" stroke="#8FB3FF" stroke-width="1.3"/>
+        <circle class="pulse-dot" r="3.8" fill="#E8641B">
+          <animateMotion dur="5s" repeatCount="indefinite"><mpath href="#flow1"/></animateMotion>
+        </circle>
+
+        <!-- ===== 2 · STYRING ===== -->
+        <rect x="48" y="196" width="200" height="122" rx="9" stroke="#0D0E10" stroke-width="1.6" fill="#FFFFFF" filter="url(#soft)"/>
+        <text x="68" y="224" font-size="11" letter-spacing="1.9" fill="#2F55B8">2 · CONTROL</text>
+        <rect x="68" y="238" width="160" height="44" rx="4" stroke="#0D0E10" stroke-width="1.4" fill="url(#chrome)"/>
+        <path d="M82 254h44M82 266h64" stroke="#2F55B8" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M182 246v28M196 246v28M210 246v28" stroke="#8A9198" stroke-width="3.5"/>
+        <circle class="led" cx="220" cy="220" r="4.5" fill="#8FB3FF"/>
+        <text x="68" y="302" font-size="9.5" letter-spacing="1.3" fill="#6C737A">PLC SOFTWARE</text>
+
+        <!-- flow 2 → 3 -->
+        <path id="flow2" class="dashmove" d="M248 257 H302" stroke="#8FB3FF" stroke-width="1.5" stroke-dasharray="3 5"/>
+        <path d="M296 253l8 4-8 4" fill="none" stroke="#8FB3FF" stroke-width="1.3"/>
+        <circle class="pulse-dot" r="3.8" fill="#E8641B">
+          <animateMotion dur="5s" begin="1.7s" repeatCount="indefinite"><mpath href="#flow2"/></animateMotion>
+        </circle>
+
+        <!-- ===== 3 · HMI / SCADA ===== -->
+        <rect x="304" y="120" width="212" height="198" rx="9" stroke="#0D0E10" stroke-width="1.6" fill="#FFFFFF" filter="url(#soft)"/>
+        <text x="326" y="150" font-size="11" letter-spacing="1.9" fill="#2F55B8">3 · HMI / SCADA</text>
+        <rect x="326" y="164" width="168" height="116" rx="5" stroke="#0D0E10" stroke-width="1.4" fill="#F4F5F6"/>
+        <path d="M326 188h168" stroke="#DEE1E4" stroke-width="1"/>
+        <path d="M340 177h26M376 177h16" stroke="#B9BFC5" stroke-width="3.4" stroke-linecap="round"/>
+        <g>
+          <rect class="bar b1" x="342" y="242" width="8" height="22" rx="4" fill="#2F55B8"/>
+          <rect class="bar b2" x="362" y="230" width="8" height="34" rx="4" fill="#2F55B8"/>
+          <rect class="bar b3" x="382" y="237" width="8" height="27" rx="4" fill="#2F55B8"/>
+          <rect class="bar b4" x="402" y="219" width="8" height="45" rx="4" fill="#2F55B8"/>
+          <rect class="bar b5" x="422" y="226" width="8" height="38" rx="4" fill="#2F55B8"/>
+          <rect class="bar b6" x="442" y="210" width="8" height="54" rx="4" fill="#E8641B"/>
+          <rect class="bar b7" x="462" y="221" width="8" height="43" rx="4" fill="#2F55B8"/>
+        </g>
+        <path d="M338 264h140" stroke="#0D0E10" stroke-width="1.3"/>
+        <text x="326" y="302" font-size="9.5" letter-spacing="1.3" fill="#6C737A">OPERATOR OVERVIEW</text>
+
+        <!-- ===== retursløjfe udenom ===== -->
+        <path d="M410 318 V372 H30 V95 H46" stroke="#9DB4E8" stroke-width="1.3" stroke-dasharray="2 4" fill="none"/>
+        <path d="M40 91l6 4-6 4" fill="none" stroke="#9DB4E8" stroke-width="1.3"/>
+        <text x="96" y="366" font-size="9.5" letter-spacing="1.3" fill="#9DB4E8">BETTER DECISIONS FED BACK INTO THE PROCESS</text>
+      </svg></div>
+      <figcaption><b>From signal to operator interface.</b> (1) Signals are collected in production, (2) the PLC code controls the process, (3) HMI and SCADA give the operator an overview and a basis for improving the process.<span class="flow-hint">Scroll sideways to see the full diagram</span></figcaption>
+    </figure>
+
+    <div class="services services-3">
+      <div class="svc reveal">
+        <div class="svc-fig"><svg viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace" role="img" aria-label="Diagram: scattered manual steps become one automated flow">
+            <text x="16" y="26" font-size="10" letter-spacing="1.5" fill="#6C737A">BEFORE: MANUAL</text>
+            <rect x="16" y="42" width="40" height="28" rx="5" stroke="#B9BFC5" stroke-width="1.5"/>
+            <rect x="76" y="76" width="40" height="28" rx="5" stroke="#B9BFC5" stroke-width="1.5"/>
+            <rect x="30" y="110" width="40" height="28" rx="5" stroke="#B9BFC5" stroke-width="1.5"/>
+            <path d="M56 60 L76 84 M92 104 L70 120" stroke="#B9BFC5" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+            <path d="M148 90 H196" stroke="#E8641B" stroke-width="2"/>
+            <path d="M192 84l8 6-8 6z" fill="#E8641B"/>
+
+            <text x="222" y="26" font-size="10" letter-spacing="1.5" fill="#2F55B8">AFTER: AUTOMATED</text>
+            <rect class="flowbox f1" x="222" y="76" width="42" height="28" rx="5" stroke="#2F55B8" stroke-width="1.7" fill="#FFFFFF"/>
+            <rect class="flowbox f2" x="278" y="76" width="42" height="28" rx="5" stroke="#2F55B8" stroke-width="1.7" fill="#FFFFFF"/>
+            <rect class="flowbox f3" x="334" y="76" width="42" height="28" rx="5" stroke="#2F55B8" stroke-width="1.7" fill="#FFFFFF"/>
+            <path d="M264 90h14M320 90h14" stroke="#2F55B8" stroke-width="1.7"/>
+            <text x="222" y="128" font-size="9" letter-spacing="1.2" fill="#6C737A">ONE CONTINUOUS FLOW</text>
+          </svg></div>
+        <h3>Automation</h3>
+        <p>Competent assistance in programming advanced PLC, HMI and robot solutions. New development, modifications and troubleshooting in existing plants.</p>
+        <ul>
+          <li>PLC software, including Siemens and Beckhoff</li>
+          <li>HMI and SCADA interfaces the operators understand</li>
+          <li>Robot programming and integration into the overall control system</li>
+        </ul>
+      </div>
+      <div class="svc reveal" style="--d:.1s">
+        <div class="svc-fig"><svg viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace" role="img" aria-label="Diagram: scattered data points come together in a chart with a clear trend">
+            <text x="16" y="26" font-size="10" letter-spacing="1.5" fill="#6C737A">RAW DATA</text>
+            <circle cx="30" cy="52" r="4" fill="#B9BFC5"/>
+            <circle cx="62" cy="86" r="4" fill="#B9BFC5"/>
+            <circle cx="42" cy="118" r="4" fill="#B9BFC5"/>
+            <circle cx="92" cy="60" r="4" fill="#B9BFC5"/>
+            <circle cx="106" cy="108" r="4" fill="#B9BFC5"/>
+            <circle cx="74" cy="44" r="4" fill="#B9BFC5"/>
+
+            <path d="M144 90 H192" stroke="#E8641B" stroke-width="2"/>
+            <path d="M188 84l8 6-8 6z" fill="#E8641B"/>
+
+            <text x="222" y="26" font-size="10" letter-spacing="1.5" fill="#2F55B8">ANALYSIS &amp; OVERVIEW</text>
+            <rect x="222" y="38" width="162" height="86" rx="6" stroke="#2F55B8" stroke-width="1.7" fill="#FFFFFF"/>
+            <path class="trend" pathLength="1" d="M238 106 L268 94 L292 98 L318 74 L344 66 L366 54" stroke="#2F55B8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle class="tip" cx="366" cy="54" r="4.5" fill="#E8641B"/>
+            <path d="M238 112h130" stroke="#6C737A" stroke-width="1.2"/>
+          </svg></div>
+        <h3>Process optimisation</h3>
+        <p>Streamline your workflows with tailored automation solutions that reduce downtime and increase output, often without new hardware.</p>
+        <ul>
+          <li>Analysis of stop causes and cycle times directly in the control system</li>
+          <li>Adjustments that deliver the most for the least</li>
+          <li>Results documented with before-and-after figures</li>
+        </ul>
+      </div>
+      <div class="svc reveal" style="--d:.2s">
+        <div class="svc-fig"><svg viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace" role="img" aria-label="Diagram: remote connection from laptop to plant on site">
+            <text x="16" y="26" font-size="10" letter-spacing="1.5" fill="#6C737A">REMOTE ACCESS</text>
+            <rect x="26" y="56" width="96" height="60" rx="4" stroke="#2F55B8" stroke-width="1.7" fill="#FFFFFF"/>
+            <path d="M16 116h116l-8 14H24z" stroke="#2F55B8" stroke-width="1.5" fill="#FFFFFF"/>
+            <path d="M40 72h36M40 84h56M40 96h28" stroke="#2F55B8" stroke-width="1.5" stroke-linecap="round"/>
+            <path class="dashmove" d="M136 86 H246" stroke="#2F55B8" stroke-width="1.5" stroke-dasharray="3 5"/>
+            <circle class="tip" cx="190" cy="86" r="4.5" fill="#E8641B"/>
+            <text x="262" y="26" font-size="10" letter-spacing="1.5" fill="#2F55B8">PLANT ON SITE</text>
+            <rect x="262" y="40" width="112" height="96" rx="4" stroke="#0D0E10" stroke-width="1.7" fill="#FFFFFF"/>
+            <path d="M262 62h112" stroke="#0D0E10" stroke-width="1.2"/>
+            <circle cx="278" cy="51" r="3.5" stroke="#2F55B8" stroke-width="1.5"/>
+            <circle cx="292" cy="51" r="3.5" stroke="#2F55B8" stroke-width="1.5"/>
+            <path d="M276 84h84" stroke="#C7CECC" stroke-width="5"/>
+            <rect x="280" y="76" width="18" height="16" stroke="#0D0E10" stroke-width="1.3" fill="#FFFFFF"/>
+            <rect x="302" y="76" width="12" height="16" stroke="#0D0E10" stroke-width="1.3" fill="#FFFFFF"/>
+            <rect x="318" y="76" width="12" height="16" stroke="#0D0E10" stroke-width="1.3" fill="#FFFFFF"/>
+            <rect x="334" y="76" width="12" height="16" stroke="#0D0E10" stroke-width="1.3" fill="#FFFFFF"/>
+            <path d="M276 108h84" stroke="#C7CECC" stroke-width="5"/>
+            <path d="M282 102v12M292 102v12M302 102v12M312 102v12M322 102v12M332 102v12M342 102v12M352 102v12" stroke="#0D0E10" stroke-width="1.1"/>
+            <circle class="led" cx="362" cy="124" r="3.5" fill="#E8641B"/>
+          </svg></div>
+        <h3>Technical support</h3>
+        <p>Reliable and fast technical support for your automation systems. By phone, remote access or on site when required.</p>
+        <ul>
+          <li>Troubleshooting on plants, including those built by others</li>
+          <li>Remote access first, on-site visits when necessary</li>
+          <li>Fault report, so the same stop does not happen again</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VORES ARBEJDE (billeder) ============ -->
+<section class="arbejde" id="arbejde">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label">Our work</span>
+      <h2>What it looks like in practice</h2>
+      <p>Freelance does not mean distant. Here is a glimpse of the type of plants the work is carried out on.</p>
+    </div>
+
+    <div class="gallery">
+      <figure class="reveal">
+        <img class="shot" src="../assets/arbejde-1.jpg"
+             alt="Vision station with cameras, ring lights and HMI screen above the conveyor" width="1400" height="878" loading="lazy" decoding="async">
+      </figure>
+      <figure class="reveal" style="--d:.12s">
+        <img class="shot" src="../assets/arbejde-2.jpg"
+             alt="Automated production line with robot cells and conveyors" width="1400" height="933" loading="lazy" decoding="async">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METODE ============ -->
+<section class="metode" id="metode">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label">The process</span>
+      <h2>From first conversation to a running solution</h2>
+      <p>A process without black boxes. You always know where the task stands and who is responsible.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal" style="--d:0.00s">
+        <span class="num">01 · Review</span>
+        <h3>No-obligation conversation</h3>
+        <p>We review the task, the scope and the timeline. Asking costs nothing.</p>
+      </div>
+      <div class="step reveal" style="--d:0.09s">
+        <span class="num">02 · Clear agreement</span>
+        <h3>Scope agreed in advance</h3>
+        <p>You receive a concrete proposal with scope and timeline, so both parties know what has been agreed.</p>
+      </div>
+      <div class="step reveal" style="--d:0.18s">
+        <span class="num">03 · Development</span>
+        <h3>Ongoing status</h3>
+        <p>The code is developed and tested along the way with regular updates. No surprises at the end.</p>
+      </div>
+      <div class="step reveal" style="--d:0.27s">
+        <span class="num">04 · Commissioning</span>
+        <h3>Handover &amp; support</h3>
+        <p>Commissioning, documentation and support after go-live, until the plant runs as it should.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OM + EJER ============ -->
+<section class="om" id="om">
+  <div class="wrap">
+    <div class="owner reveal">
+      <img class="owner-img" src="../assets/portraet.jpg" alt="Lars Anker Trankjær, owner of CONSULTS ApS" width="1000" height="1333" loading="lazy" decoding="async">
+      <div class="owner-card">
+        <b>Lars Anker Trankjær</b>
+        <div class="role">Owner &amp; Managing Director, CONSULTS ApS</div>
+        <div class="meta">
+          <span>DIRECT: <a href="tel:+4570273700">+45 70 27 37 00</a></span>
+          <span>HERNING, DENMARK · SELF-EMPLOYED SINCE 2003</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <span class="label">About CONSULTS</span>
+      <h2>Freelance automation development from Herning, Denmark</h2>
+      <p>Behind CONSULTS is Lars Anker Trankjær, self-employed in Herning since 2003. CONSULTS ApS was established as an independent company in 2024 with a focus on freelance automation development: PLC software to begin with, today also HMI, SCADA and robot integration.</p>
+      <p>Work is carried out for machine builders and manufacturing companies, either as extra capacity on large projects or as the specialist who solves a specific task. The principle is the same every time: solutions that are robust in operation, understandable for operators and maintainable for those who come after.</p>
+      <p class="om-quote">"At CONSULTS there are no project managers in between. You speak with the person who writes the code."</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label">Questions &amp; answers</span>
+      <h2>What customers ask most often</h2>
+      <p>Short, honest answers. If your question is not here, just call, it is the fastest way.</p>
+    </div>
+    <div class="faq-list reveal">
+      <details>
+        <summary>Which PLC platforms do you work with?<span class="plus" aria-hidden="true">+</span></summary>
+        <p>Siemens and Beckhoff, among others. If you use a different platform, just ask. The initial review is free, and we will tell you honestly whether it is something we can help with.</p>
+      </details>
+      <details>
+        <summary>Can you take over code written by others?<span class="plus" aria-hidden="true">+</span></summary>
+        <p>Yes. A large part of the work is precisely existing plants where the original supplier is no longer available or where documentation is missing. We review the code before building on it.</p>
+      </details>
+      <details>
+        <summary>What does it cost?<span class="plus" aria-hidden="true">+</span></summary>
+        <p>It depends on the scope of the task. You always receive a concrete proposal with scope and timeline before we start, so both parties know what has been agreed. The first review costs nothing.</p>
+      </details>
+      <details>
+        <summary>What does a typical project look like?<span class="plus" aria-hidden="true">+</span></summary>
+        <p>Four steps: a no-obligation review of the task, a clear proposal with scope and timeline, development with ongoing status and testing, and finally commissioning with documentation and support after go-live.</p>
+      </details>
+      <details>
+        <summary>What is the difference between using a freelancer and an agency?<span class="plus" aria-hidden="true">+</span></summary>
+        <p>At CONSULTS there are no project managers in between. You speak directly with the person who writes the code, from the first review until the plant is running. That means shorter decision paths and no agency overhead.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KONTAKT ============ -->
+<section class="kontakt" id="kontakt">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <img class="logo logo-kontakt" src="../assets/logo.png" alt="CONSULTS ApS — Get it done" width="190" height="128">
+        <span class="label">Contact</span>
+        <h2>Do you have a task, or are you short on capacity?</h2>
+      </div>
+      <a class="call" href="tel:+4570273700">+45 70 27 37 00</a>
+    </div>
+    <div class="grid">
+      <div class="k-list reveal">
+        <div class="k-item">
+          <span class="label">Tel</span>
+          <div><b>Phone</b><a href="tel:+4570273700">+45 70 27 37 00</a></div>
+        </div>
+        <div class="k-item">
+          <span class="label">Mail</span>
+          <div><b>Email</b><a href="mailto:info@consults.dk">info@consults.dk</a></div>
+        </div>
+        <div class="k-item">
+          <span class="label">Addr</span>
+          <div><b>Address</b><a href="https://maps.google.com/?q=Rosenholmvej+106,+7400+Herning,+Denmark" target="_blank" rel="noopener">Rosenholmvej 106, 7400 Herning, Denmark</a></div>
+        </div>
+        <div class="k-item">
+          <span class="label">CVR</span>
+          <div><b>Company</b><span>CONSULTS ApS · Danish CVR no. 44760533</span></div>
+        </div>
+        <div class="k-item">
+          <span class="label">Meet</span>
+          <div><b>The review</b><span>The first conversation is free and without obligation. We review the task, give an honest assessment of whether and how we can help, and you leave with a clear picture of the next step.</span></div>
+        </div>
+      </div>
+
+      <form class="reveal" style="--d:.12s" onsubmit="return sendMail(this)">
+        <div class="f-row">
+          <div>
+            <label for="firma">Company *</label>
+            <input id="firma" name="firma" required autocomplete="organization">
+          </div>
+          <div>
+            <label for="navn">Name *</label>
+            <input id="navn" name="navn" required autocomplete="name">
+          </div>
+        </div>
+        <div class="f-row">
+          <div>
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div>
+            <label for="tlf">Phone (optional)</label>
+            <input id="tlf" name="tlf" type="tel" autocomplete="tel">
+          </div>
+        </div>
+        <div>
+          <span class="topic-label" id="emne-label">What is your enquiry about?</span>
+          <div class="topics" role="group" aria-labelledby="emne-label">
+            <button type="button" class="topic" data-starter="We need PLC software developed or extended for [plant/line]. The platform is [Siemens/Beckhoff/other], and the task concerns ...">PLC programming</button>
+            <button type="button" class="topic" data-starter="We need a new or improved HMI or SCADA interface for [plant]. Today the operators lack ...">HMI &amp; SCADA</button>
+            <button type="button" class="topic" data-starter="We need a robot programmed or integrated into [cell/line]. The robot is [brand], and it needs to ...">Robot programming</button>
+            <button type="button" class="topic" data-starter="We have an existing plant [age/control type] that needs to be rebuilt or extended with ...">Plant modification</button>
+            <button type="button" class="topic" data-starter="We are experiencing [faults or stops] on [plant/line]. It typically happens when ...">Troubleshooting &amp; support</button>
+          </div>
+          <input type="hidden" id="emne" name="emne" value="">
+        </div>
+        <div>
+          <label for="besked">Describe the task *</label>
+          <textarea id="besked" name="besked" required placeholder="Choose a topic above to get a starting text, or write freely. Platform, plant type and what needs solving is a good start."></textarea>
+        </div>
+        <button class="btn btn-light" type="submit">Book a review</button>
+        <p class="form-note">The message opens in your email client, ready to send. You can also call us directly on +45 70 27 37 00.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="foot-brand"><img class="logo logo-footer" src="../assets/logo.png" alt="CONSULTS ApS — Get it done" width="190" height="128"><span>Rosenholmvej 106, 7400 Herning, Denmark · CVR 44760533</span></span>
+    <span class="mono" style="font-size:11.5px;letter-spacing:.12em">PLC · HMI · SCADA · ROBOT · HERNING, DENMARK</span>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+
+// Header komprimeres ved scroll
+const hdr = document.querySelector('header');
+let lastScrolled = false;
+addEventListener('scroll', () => {
+  const s = scrollY > 24;
+  if (s !== lastScrolled) { hdr.classList.toggle('scrolled', s); lastScrolled = s; }
+}, {passive:true});
+
+// Scroll-reveal
+const revealIO = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); revealIO.unobserve(e.target); }
+  });
+}, {threshold:.14, rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.reveal').forEach(el => revealIO.observe(el));
+
+// Scrollspy: markér aktivt menupunkt
+const spyLinks = [...document.querySelectorAll('.nav-main a[href^="#"]')];
+const spyMap = new Map(spyLinks.map(a => [a.getAttribute('href').slice(1), a]));
+const spyIO = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    const link = spyMap.get(e.target.id);
+    if (!link) return;
+    if (e.isIntersecting) {
+      spyLinks.forEach(a => { a.classList.remove('active'); a.removeAttribute('aria-current'); });
+      link.classList.add('active');
+      link.setAttribute('aria-current','true');
+    }
+  });
+}, {rootMargin:'-35% 0px -55% 0px'});
+['ydelser','arbejde','metode','om','faq'].forEach(id => {
+  const el = document.getElementById(id);
+  if (el) spyIO.observe(el);
+});
+
+// BEKRÆFT: udskift med virksomhedens rigtige e-mailadresse inden publicering
+const CONTACT_EMAIL = "info@consults.dk";
+
+function toggleMenu(btn){
+  const panel = document.getElementById('nav-panel');
+  const open = panel.classList.toggle('open');
+  panel.querySelector('.nav-main').classList.toggle('open', open);
+  panel.querySelector('.nav-actions').classList.toggle('open', open);
+  btn.setAttribute('aria-expanded', open);
+}
+document.querySelectorAll('#nav-panel a').forEach(a=>{
+  a.addEventListener('click',()=>{
+    const panel = document.getElementById('nav-panel');
+    panel.classList.remove('open');
+    panel.querySelector('.nav-main').classList.remove('open');
+    panel.querySelector('.nav-actions').classList.remove('open');
+    document.querySelector('.menu-btn').setAttribute('aria-expanded','false');
+  });
+});
+// Emnevalg: markér valgt emne og indsæt starttekst
+let lastStarter = '';
+document.querySelectorAll('.topic').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.topic').forEach(b => b.classList.remove('sel'));
+    btn.classList.add('sel');
+    document.getElementById('emne').value = btn.textContent.trim();
+    const ta = document.getElementById('besked');
+    const starter = btn.dataset.starter || '';
+    if (ta.value.trim() === '' || ta.value === lastStarter) {
+      ta.value = starter;
+      lastStarter = starter;
+      if (starter) { ta.focus(); }
+    }
+  });
+});
+
+
+// Live tæller i hero-overlayet
+(function(){
+  var el = document.getElementById('hudCount');
+  if (!el) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var n = 1248;
+  setInterval(function(){
+    n += 1 + Math.floor(Math.random()*2);
+    el.textContent = n.toLocaleString('da-DK').replace(/\./g,' ');
+  }, 1400);
+})();
+
+function sendMail(f){
+  const emne = f.emne.value ? f.emne.value + ', ' : '';
+  const s = encodeURIComponent('Review request: ' + emne + f.firma.value);
+  const b = encodeURIComponent(
+    'Company: ' + f.firma.value + '\n' +
+    'Name: ' + f.navn.value + '\n' +
+    'Email: ' + f.email.value + '\n' +
+    'Phone: ' + (f.tlf.value || 'not provided') + '\n' +
+    'Topic: ' + (f.emne.value || 'Not specified') + '\n\n' +
+    f.besked.value
+  );
+  window.location.href = 'mailto:' + CONTACT_EMAIL + '?subject=' + s + '&body=' + b;
+  return false;
+}
+</script>
+
+
+<div class="callbar" aria-label="Quick contact">
+  <a class="callbar-phone" href="tel:+4570273700">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+    Call now
+  </a>
+  <a class="callbar-cta" href="#kontakt">Book a review</a>
+</div>
+</body>
+</html>

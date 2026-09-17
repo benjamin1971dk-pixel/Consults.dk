@@ -1,0 +1,21 @@
+{
+  "name": "CONSULTS ApS",
+  "short_name": "CONSULTS",
+  "description": "Freelance PLC-, HMI- og robotsoftwareudvikling. Herning.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16233F",
+  "theme_color": "#16233F",
+  "icons": [
+    {
+      "src": "assets/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
