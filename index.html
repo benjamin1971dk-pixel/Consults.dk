@@ -11,10 +11,11 @@
 <link rel="alternate" hreflang="x-default" href="https://consults.dk/">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#16233F">
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="icon" href="favicon.ico?v=2" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=2">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png?v=2">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=2">
 <link rel="manifest" href="site.webmanifest">
 <meta name="author" content="CONSULTS ApS">
 <meta name="geo.region" content="DK-82">
@@ -657,6 +658,30 @@ html.js .anno .hud{opacity:0;animation:fadeIn .6s ease 2.1s forwards}
   html.js .anno .spark,html.js .anno .hud{opacity:1;animation:none}
 }
 @media(max-width:760px){.anno .hud{display:none}}
+
+/* ---------- Logo-lockup: korrekte proportioner, ingen udstrækning ---------- */
+.logo{width:auto;object-fit:contain;flex:0 0 auto;min-width:0}
+.brand{flex:0 0 auto;min-width:max-content}
+/* header: plads til det fulde lockup uden at klemme menuen */
+header .wrap{max-width:1240px}
+.nav{gap:22px}
+.nav-main ul{gap:26px}
+.logo,header.scrolled .brand .logo{height:50px}
+@media(min-width:1081px) and (max-width:1287px){.nav-phone{display:none}}
+.logo-kontakt{height:76px;margin-bottom:20px}
+.logo-footer{height:44px;margin-bottom:8px}
+@media(max-width:1080px){
+  .logo,header.scrolled .brand .logo{height:52px}
+  .logo-kontakt{height:64px}
+}
+@media(max-width:560px){
+  .logo,header.scrolled .brand .logo{height:44px}
+  .logo-kontakt{height:56px;margin-bottom:14px}
+  .logo-footer{height:38px}
+}
+@media(max-width:380px){
+  .logo,header.scrolled .brand .logo{height:38px}
+}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "@id": "https://consults.dk/#business", "name": "CONSULTS ApS", "url": "https://consults.dk/", "image": "https://consults.dk/assets/og-image.jpg", "description": "Freelance udvikling af PLC-, HMI-, SCADA- og robotsoftware til industrien. Herning, Danmark.", "telephone": "+45 70 27 37 00", "email": "info@consults.dk", "foundingDate": "2024-04-05", "founder": {"@type": "Person", "name": "Lars Anker Trankjær"}, "identifier": {"@type": "PropertyValue", "propertyID": "CVR", "value": "44760533"}, "vatID": "DK44760533", "address": {"@type": "PostalAddress", "streetAddress": "Rosenholmvej 106", "postalCode": "7400", "addressLocality": "Herning", "addressCountry": "DK"}, "areaServed": [{"@type": "Country", "name": "Denmark"}, {"@type": "AdministrativeArea", "name": "Midtjylland"}, {"@type": "City", "name": "Herning"}], "knowsAbout": ["PLC-programmering", "Struktureret tekst", "HMI", "SCADA", "SRO", "Robotprogrammering", "Maskinstyring", "Industriel automation", "Procesoptimering", "Idriftsættelse", "Siemens", "Siemens TIA Portal", "Beckhoff", "Beckhoff TwinCAT"], "parentOrganization": {"@type": "Organization", "name": "Trankjær Holding ApS", "foundingDate": "2003-03-26"}, "alternateName": "CONSULTS", "slogan": "Powering Automation", "serviceType": ["PLC-programmering", "HMI-udvikling", "SCADA-udvikling", "Robotprogrammering", "Procesoptimering", "Fejlfinding og support", "Idriftsættelse"], "geo": {"@type": "GeoCoordinates", "latitude": 56.1362, "longitude": 8.9748}, "logo": "https://consults.dk/assets/logo.png", "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Ydelser", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "PLC-programmering", "description": "Nyudvikling, ombygning og fejlfinding af PLC-software. Siemens og Beckhoff."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "HMI- og SCADA-udvikling", "description": "Operatørflader og overvågning, som produktionen kan bruge i hverdagen."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Robotprogrammering", "description": "Programmering og integration af robotter i den samlede styring."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Procesoptimering", "description": "Analyse af stopårsager og cyklustider direkte i styringen."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Teknisk support og fejlfinding", "description": "Fejlfinding pr. telefon, fjernopkobling eller på site, også på anlæg andre har bygget."}}]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Hvilke PLC-platforme arbejder I med?", "acceptedAnswer": {"@type": "Answer", "text": "Blandt andet Siemens og Beckhoff. Har I en anden platform, så spørg. Den indledende gennemgang er gratis, og vi siger ærligt, om det er noget, vi kan hjælpe med."}}, {"@type": "Question", "name": "Kan I overtage kode, som andre har skrevet?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. En stor del af opgaverne er netop eksisterende anlæg, hvor den oprindelige leverandør ikke længere er tilgængelig, eller hvor dokumentationen mangler. Vi gennemgår koden, før vi bygger videre."}}, {"@type": "Question", "name": "Hvad koster det?", "acceptedAnswer": {"@type": "Answer", "text": "Det afhænger af opgavens omfang. I får altid et konkret oplæg med omfang og tidsplan, inden vi går i gang, så begge parter ved, hvad der er aftalt. Den første gennemgang koster ikke noget."}}, {"@type": "Question", "name": "Hvordan foregår et typisk forløb?", "acceptedAnswer": {"@type": "Answer", "text": "Fire trin: en uforpligtende gennemgang af opgaven, et klart oplæg med omfang og tidsplan, udvikling med løbende status og test, og til sidst idriftsættelse med dokumentation og support efter go-live."}}, {"@type": "Question", "name": "Hvad er forskellen på at bruge en freelancer og et bureau?", "acceptedAnswer": {"@type": "Answer", "text": "Hos CONSULTS er der ingen projektledere imellem. I taler direkte med den, der skriver koden, fra første gennemgang til anlægget kører. Det giver kortere beslutningsveje og ingen bureau-overhead."}}]}</script>
@@ -667,7 +692,7 @@ html.js .anno .hud{opacity:0;animation:fadeIn .6s ease 2.1s forwards}
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="CONSULTS ApS, forside">
-      <img class="logo" src="assets/logo.png" alt="CONSULTS ApS, Powering Automation" width="889" height="128">
+      <img class="logo" src="assets/logo.png?v=2" alt="CONSULTS ApS, Powering Automation" width="1174" height="248">
     </a>
 
     <button class="menu-btn" aria-expanded="false" aria-controls="nav-panel" onclick="toggleMenu(this)">Menu</button>
@@ -1103,7 +1128,7 @@ html.js .anno .hud{opacity:0;animation:fadeIn .6s ease 2.1s forwards}
   <div class="wrap">
     <div class="top">
       <div>
-        <img class="logo logo-kontakt" src="assets/logo.png" alt="CONSULTS ApS, Powering Automation" width="889" height="128">
+        <img class="logo logo-kontakt" src="assets/logo.png?v=2" alt="CONSULTS ApS, Powering Automation" width="1174" height="248">
         <span class="label">Kontakt</span>
         <h2>Har I en opgave, eller mangler I kapacitet?</h2>
       </div>
@@ -1180,7 +1205,7 @@ html.js .anno .hud{opacity:0;animation:fadeIn .6s ease 2.1s forwards}
 
 <footer>
   <div class="wrap">
-    <span class="foot-brand"><img class="logo logo-footer" src="assets/logo.png" alt="CONSULTS ApS, Powering Automation" width="889" height="128"><span>Rosenholmvej 106, 7400 Herning · CVR 44760533</span></span>
+    <span class="foot-brand"><img class="logo logo-footer" src="assets/logo.png?v=2" alt="CONSULTS ApS, Powering Automation" width="1174" height="248"><span>Rosenholmvej 106, 7400 Herning · CVR 44760533</span></span>
     <span class="mono" style="font-size:11.5px;letter-spacing:.12em">PLC · HMI · SCADA · ROBOT · HERNING</span>
   </div>
 </footer>
